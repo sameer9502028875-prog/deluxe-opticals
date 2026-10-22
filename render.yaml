@@ -3,5 +3,5 @@ services:
     name: delux-opticals-mangalagiri
     runtime: static
     buildCommand: ""
-    staticPublishPath: ./deluxe_optical_website
+    staticPublishPath: ./
     autoDeploy: true
