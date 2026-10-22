@@ -1,0 +1,32 @@
+DELUXE OPTICAL — WEBSITE + PWA PROJECT
+=====================================
+
+Bro, mana Rs.5,000 package website starter files idi.
+
+INCLUDED:
+- Premium mobile-friendly optical shop website
+- Spectacles catalogue (sample products/photos included for demo)
+- Men / Women / Kids / Sunglasses categories + product search
+- Add to Cart + quantity + subtotal
+- Guest checkout with name/phone and pickup/delivery request
+- WhatsApp order enquiry (owner's real number must be added)
+- Owner admin login, photos upload, product price/stock edits
+- Owner Orders dashboard with status changes
+- PWA: supported Android browsers lo Add to Home Screen
+
+NOT INCLUDED: Play Store app, online payment gateway, automated SMS,
+customer accounts/order history, payment collection, shipping automation.
+
+IMPORTANT:
+1) Current products and prices are DEMO examples — shop's real products need adding.
+2) Real orders are DISABLED until shop details, Supabase credentials + SQL are set up and tested.
+3) Open config.js -> put real WhatsApp number, location and Maps link.
+4) Read SETUP.md -> detailed database, security and deployment instructions.
+5) Host static site using Render Static Site, free tier as available.
+6) Connect a NEW, shop-specific Supabase project. Test fully before going live.
+7) Google Business Profile is a separate Google setup; no website code can create it automatically.
+
+First-year domain is included in the agreed Rs.5,000 package; renewal after year one is separate.
+Developer time, future paid subscriptions, renewals and support are different.
+
+The source and preview are ready; this is not yet a live shop website. See SETUP.md and HANDOVER_CHECKLIST.txt for the remaining launch steps.

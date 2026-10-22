@@ -1,0 +1,45 @@
+DELUXE OPTICAL — FINAL SETUP & HANDOVER
+For the agreed Rs.5,000 package | First-year domain included
+
+PROJECT READY NOW
+[✓] Mobile-friendly website and product catalogue layout
+[✓] Search, Men/Women/Kids/Sunglasses filters, cart and quantity controls
+[✓] WhatsApp enquiry flow (prefilled as 91 89851 58331; owner confirmation needed)
+[✓] Guest order request with pickup/delivery choice (needs the database)
+[✓] Owner login, product/photo/price editing and order status panel (needs owner account + database)
+[✓] Installable Android home-screen PWA (not a Play Store app)
+
+PREFILLED FROM THE PROFILE SCREENSHOT — VERIFY WITH OWNER
+Phone/WhatsApp: 8985158331 | Address: Opp. Old Bus Stand, Mangalagiri
+Maps: https://maps.app.goo.gl/SQcJQousegjwvYD16
+Brands: IDEE, Ray-Ban, Fastrack, FILA | Eye testing listed
+
+COLLECT / CONFIRM WITH THE SHOP OWNER
+[ ] Confirm WhatsApp/call number 8985158331 is correct
+[ ] Confirm address: Opp. Old Bus Stand, Mangalagiri
+[ ] Open the prefilled Google Maps link and confirm it points to this shop
+[ ] Confirm IDEE, Ray-Ban, Fastrack and FILA brand list and eye-testing service wording
+[ ] Real product photos, product names, categories, prices and available stock
+[ ] Owner email for admin access
+[ ] Written okay for collecting customer name, mobile number and delivery address for orders
+[ ] Confirm pickup/delivery area, lens-price wording, cancellations and privacy contact
+[ ] Final domain spelling and ensure the account belongs to the shop owner
+
+GO-LIVE STEPS
+[ ] Replace sample products and shop details; keep preview mode until ready
+[ ] Create a separate Supabase project owned by the shop; run database/setup.sql
+[ ] Add only the shop owner to admin_users; set project URL + public/anon key in config.js
+[ ] Deploy static site with HTTPS and connect the included first-year domain
+[ ] Test products, stock, cart totals, guest order and WhatsApp link on a phone
+[ ] Confirm anonymous visitors cannot see order/customer details or change products
+[ ] Test owner login, image upload, price edits and order status update
+[ ] Install from Android Chrome and confirm icon, name and open behavior
+[ ] Handover domain and database ownership/access to the shop owner
+
+NOT INCLUDED IN THIS WEBSITE QUOTE
+Google Play Store publishing/app, online payments, customer accounts/order history,
+automated SMS/WhatsApp messages, delivery/shipping integration, and paid renewals.
+The website can be installed from the browser using Add to Home Screen.
+
+Important: sample product cards are examples only. Do not publish or take real
+orders until the real catalogue, contact details, database and launch tests are done.

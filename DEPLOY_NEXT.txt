@@ -1,0 +1,18 @@
+DELUXE OPTICAL — NEXT: DEPLOY A PREVIEW
+
+This folder is ready to connect to a GitHub repository and deploy as a Render
+Static Site. `render.yaml` is at this folder's root; the publish directory is
+`deluxe_optical_website/`.
+
+Before publishing a public preview:
+1. Confirm the phone/WhatsApp number and the Maps link with the shop owner.
+2. Create a new GitHub repository owned by the shop owner (or the developer's
+   business account if the ownership arrangement is clear); upload this folder's
+   contents including render.yaml.
+3. In Render, select the chosen workspace and create a Blueprint from that repo.
+   Render reads render.yaml and serves the static website over HTTPS.
+4. Preview mode stays visible because no Supabase project is connected; sample
+   product photos/prices are examples and checkout does not accept real orders.
+
+Production launch still requires connecting the shop's own Supabase project,
+loading genuine products, testing guest orders and giving the shop owner access.
