@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: delux-opticals-mangalagiri
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./deluxe_optical_website
+    autoDeploy: true
