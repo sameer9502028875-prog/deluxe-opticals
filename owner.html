@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=owner-20261023" />
+  <link rel="stylesheet" href="./styles.css?v=owner-20261023-xfix" />
   <style>
     /* This route is the private entry point; use the existing owner modal and admin actions without duplicating JS. */
     html { background:#f4f2f1; }
@@ -50,6 +50,31 @@
     body.owner-private-page #adminModal.owner-is-dashboard {width:min(800px,100%);}
     body.owner-private-page .admin-list {max-height:none;}
     body.owner-private-page .owner-brandbar {border-radius:16px 16px 0 0;}
+    /* Compact, properly centred exit icon; anchor buttons need explicit layout. */
+    body.owner-private-page .owner-brandbar .owner-close {
+      display:inline-flex!important;
+      align-items:center!important;
+      justify-content:center!important;
+      flex:0 0 38px!important;
+      width:38px!important;
+      height:38px!important;
+      min-width:38px!important;
+      min-height:38px!important;
+      padding:0!important;
+      margin:0!important;
+      border:1px solid rgba(255,255,255,.2)!important;
+      border-radius:11px!important;
+      background:rgba(255,255,255,.06)!important;
+      color:#fff!important;
+      text-decoration:none!important;
+      font:400 24px/1 'DM Sans',sans-serif!important;
+      box-sizing:border-box!important;
+      -webkit-tap-highlight-color:transparent;
+    }
+    body.owner-private-page .owner-brandbar .owner-close:hover,
+    body.owner-private-page .owner-brandbar .owner-close:focus-visible {
+      background:rgba(255,255,255,.17)!important;
+    }
     @media(max-width:520px){
       body.owner-private-page {padding:16px 10px 34px;}
       body.owner-private-page #adminModal.owner-portal.admin-modal {width:100%;}
@@ -110,7 +135,7 @@
       <img src="./delux-do-logo.svg" alt="Delux Opticals monogram" width="44" height="44" />
       <div><strong>DELUX OPTICALS</strong><span>OWNER PORTAL</span></div>
     </div>
-    <a class="owner-close" href="/" aria-label="View customer website" title="View website">×</a>
+    <a class="owner-close" href="/" aria-label="Close owner portal and return to shop" title="Back to shop">&times;</a>
   </div>
   <div class="owner-content">
     <div id="adminLogin">
