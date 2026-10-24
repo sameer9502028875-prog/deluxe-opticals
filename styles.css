@@ -65,3 +65,8 @@
 .product-details h3{letter-spacing:.035em;font-weight:700}
 .product-details .product-category{letter-spacing:.1em;text-transform:uppercase;font-size:10px}
 .model-field-help{display:block;margin-top:5px;font-size:11px;line-height:1.4;color:#777;font-weight:400}
+
+/* Premium brand list and frame details (2026-10-24) */
+.product-frame-details{font-size:12px;line-height:1.55;color:#777;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:5px 0 10px;}
+.brand-filter-label{display:block;letter-spacing:.16em;font-size:10px;font-weight:800;margin-bottom:13px;}
+.brand-filters .brand-filter{transition:background-color .15s ease,color .15s ease;}
