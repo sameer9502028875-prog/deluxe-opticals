@@ -42,3 +42,7 @@
 @media(max-width:600px){.owner-portal.admin-modal{width:calc(100vw - 18px);border-radius:12px;max-height:calc(100dvh - 16px)}.owner-brandbar{padding:17px 18px}.owner-brand-lockup img{width:40px;height:40px}.owner-brand-lockup strong{font-size:11px}.owner-content{padding:25px 20px 27px}.owner-heading{font-size:28px}.owner-portal.owner-is-dashboard{width:calc(100vw - 18px)}}
 
 .owner-email-help{color:#928b8f;font-size:10px;line-height:1.6;margin:10px 0 0;text-align:center}
+
+/* Dynamic brand filters */
+.brand-filters{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:-8px 0 24px}.brand-filter-label{font-size:9px;font-weight:800;letter-spacing:1.5px;color:#8a7779;margin-right:4px}.brand-filter{border:1px solid #d9deda;background:transparent;border-radius:2px;padding:8px 12px;color:var(--navy);font-size:11px;cursor:pointer}.brand-filter.active{background:var(--navy);border-color:var(--navy);color:#fff}
+@media(max-width:760px){.brand-filters{flex-wrap:nowrap;overflow-x:auto;margin:-5px -20px 22px;padding:0 20px 5px;scrollbar-width:none}.brand-filters::-webkit-scrollbar{display:none}.brand-filter{white-space:nowrap;flex-shrink:0}}
