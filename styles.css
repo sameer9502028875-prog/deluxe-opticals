@@ -59,3 +59,9 @@
 .brand-filter.active,.brand-filter.active:hover{background:#242020;border-color:#242020;color:#fff;box-shadow:0 3px 9px rgba(30,22,20,.13)}
 @media(max-width:760px){.catalogue-layout{grid-template-columns:112px minmax(0,1fr);gap:12px}.brand-filters{top:10px;overflow:visible;padding:12px 6px 9px;gap:3px;border-radius:7px}.brand-filter-label{margin:0 4px 7px;padding-bottom:9px;font-size:8px;letter-spacing:1px}.brand-filter{white-space:normal;overflow-wrap:anywhere;padding:10px 7px;font-size:10px;border-radius:5px}}
 @media(max-width:410px){.catalogue-layout{grid-template-columns:98px minmax(0,1fr);gap:8px}}
+
+/* Premium model-number product presentation */
+.product-frame-description{font-size:12px;line-height:1.5;color:#737373;margin:4px 0 8px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.product-details h3{letter-spacing:.035em;font-weight:700}
+.product-details .product-category{letter-spacing:.1em;text-transform:uppercase;font-size:10px}
+.model-field-help{display:block;margin-top:5px;font-size:11px;line-height:1.4;color:#777;font-weight:400}
