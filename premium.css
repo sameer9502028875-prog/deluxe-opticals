@@ -109,3 +109,28 @@ body{background:#fff;color:#19191a;-webkit-font-smoothing:antialiased}
  .brand-select-toggle{font-size:11px;padding:0 8px}
  .brand-select-icon{width:15px;height:15px;flex-basis:15px}
 }
+
+
+/* iOS Safari: remove the native blue touch/focus flash on category tabs. */
+.filter-bar .filter,
+.filter-bar .filter.active {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  background-image: none !important;
+  background-clip: padding-box;
+  box-shadow: none !important;
+}
+.filter-bar .filter:focus:not(:focus-visible),
+.filter-bar .filter:active:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* Keep keyboard focus visible and accessible without a blue Safari ring. */
+.filter-bar .filter:focus-visible {
+  outline: 2px solid #c72d3e !important;
+  outline-offset: 2px;
+}
