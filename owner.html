@@ -1,20 +1,21 @@
-<!doctype html>
-<html lang="en" data-page="owner">
+<!DOCTYPE html>
+
+<html data-page="owner" lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#191719" />
-  <meta name="robots" content="noindex,nofollow,noarchive" />
-  <meta name="referrer" content="same-origin" />
-  <meta name="description" content="Secure owner login for Delux Opticals management." />
-  <title>Owner Portal | Delux Opticals</title>
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=20261024-fix2" />
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#191719" name="theme-color"/>
+<meta content="noindex,nofollow,noarchive" name="robots"/>
+<meta content="same-origin" name="referrer"/>
+<meta content="Secure owner login for Delux Opticals management." name="description"/>
+<title>Owner Portal | Delux Opticals</title>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="./styles.css?v=20261024-final3" rel="stylesheet"/>
+<style>
     /* This route is the private entry point; use the existing owner modal and admin actions without duplicating JS. */
     html { background:#f4f2f1; }
     body.owner-private-page {
@@ -80,98 +81,86 @@
       body.owner-private-page #adminModal.owner-portal.admin-modal {width:100%;}
     }
   </style>
-  <script>window.DELUXE_CONFIG=window.DELUXE_CONFIG||{businessName:'Delux Opticals',whatsappNumber:'918985158331',shopPhone:'8985158331',shopAddress:'Opp. Old Bus Stand, Mangalagiri, Andhra Pradesh',googleMapsUrl:'https://maps.app.goo.gl/SQcJQousegjwvYD16',supabaseUrl:'https://altqmirpnyrihuaiada.supabase.co',supabaseAnonKey:'sb_publishable_QfB34FVfLrLioxzQpnw5Aw_lxrrhRJR'};</script>
-  <script src="./config.js"></script>
-  <script src="./app.js?v=20261024-fix2" defer></script>
-</head>
+<script>window.DELUXE_CONFIG=window.DELUXE_CONFIG||{businessName:'Delux Opticals',whatsappNumber:'918985158331',shopPhone:'8985158331',shopAddress:'Opp. Old Bus Stand, Mangalagiri, Andhra Pradesh',googleMapsUrl:'https://maps.app.goo.gl/SQcJQousegjwvYD16',supabaseUrl:'https://altqmirpnyrihuaiada.supabase.co',supabaseAnonKey:'sb_publishable_QfB34FVfLrLioxzQpnw5Aw_lxrrhRJR'};</script>
+<script src="./config.js"></script>
+<script defer="" src="./app.js?v=20261024-final3"></script>
+</link></head>
 <body class="owner-private-page">
-  <div class="announcement"><span class="ann-dot"></span> PREMIUM EYEWEAR &amp; EYE TESTING <span class="ann-break">/</span> MANGALAGIRI</div>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Delux Opticals home">
-      <span class="brand-mark"><img src="./delux-do-logo.svg" alt="" aria-hidden="true"/></span>
-      <span class="brand-text"><strong>DELUX</strong><small>OPTICAL</small></span>
-    </a>
-    <nav class="desktop-nav" aria-label="Main navigation"><a href="#collection">Collections</a><a href="#how-it-works">How it works</a><a href="#visit">Visit us</a></nav>
-    <div class="header-actions"><button id="installTop" class="subtle-cta" type="button" hidden>Get the app <span>↗</span></button><button id="cartTop" class="cart-trigger" type="button" aria-label="Open shopping bag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span id="cartCount" class="cart-count">0</span></button></div>
-  </header>
-
-  <main>
-    <section class="hero" aria-labelledby="heroHeading">
-      <div class="hero-copy"><div class="eyebrow pale"><span class="rule"></span> A FRESH PERSPECTIVE</div><h1 id="heroHeading">See better.<br/><em>Look sharper.</em></h1><p>Discover premium IDEE, Ray-Ban, Fastrack and FILA eyewear, with eye testing and personal help from your local optical team.</p><div class="hero-buttons"><a class="button button-light" href="#collection">Explore collection <span>↗</span></a><a class="button button-ghost" href="#how-it-works">How to order <span>↓</span></a></div><div class="hero-note"><span class="tiny-symbol">✳</span> FRAMES FOR EVERY FACE, EVERY DAY</div></div>
-      <div class="hero-art"><div class="hero-oval"></div><div class="hero-circle-label">YOUR<br>EVERYDAY<br>LOOK <span>↗</span></div><img src="./hero-frames.svg" alt="Illustration of premium optical frames"/><div class="hero-index"><span>01</span> / 03 &nbsp; CURATED EYEWEAR</div></div>
-    </section>
-
-    <div class="benefits-strip"><span><b>01</b> Premium &amp; luxury frames</span><i></i><span><b>02</b> Eye testing available</span><i></i><span><b>03</b> Shop pickup in Mangalagiri</span></div><div class="brand-strip" aria-label="Available eyewear brands"><span>FEATURED BRANDS</span><strong>IDEE</strong><i></i><strong>Ray-Ban</strong><i></i><strong>Fastrack</strong><i></i><strong>FILA</strong></div>
-
-    <section class="section collection-section" id="collection">
-      <div class="section-heading"><div><div class="eyebrow"><span class="rule"></span> FIND YOUR FRAME</div><h2>The collection<span class="accent-period">.</span></h2><p>Explore everyday essentials and statement styles.</p></div><div class="product-count" id="productCount">Collection preview</div></div>
-      <div class="controls-bar"><div class="filter-bar" id="filters" role="group" aria-label="Filter products"><button class="filter active" data-category="All" type="button">All frames</button><button class="filter" data-category="Men" type="button">Men</button><button class="filter" data-category="Women" type="button">Women</button><button class="filter" data-category="Sunglasses" type="button">Sunglasses</button><button class="filter" data-category="Kids" type="button">Kids</button></div><label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg><input type="search" id="productSearch" placeholder="Search frames" aria-label="Search frames" /></label></div>
-      <div class="products-grid" id="productsGrid" aria-live="polite"></div>
-      <div id="emptyProducts" class="empty" hidden>No frames found. Try another search.</div>
-      <div id="previewNotice" class="preview-notice" hidden>Our online catalogue is temporarily unavailable. Please call or WhatsApp the shop.</div>
-    </section>
-
-    <section class="editorial"><div class="editorial-art"><img src="./feature-frames.svg" alt="Stylish eyeglasses illustration"/><span class="editorial-label">THE DETAILS MATTER.</span></div><div class="editorial-copy"><div class="eyebrow"><span class="rule"></span> MORE THAN JUST FRAMES</div><h2>Find your<br/><em>perfect fit.</em></h2><p>Explore IDEE, Ray-Ban, Fastrack and FILA frames. Visit us for eye testing or help choosing the right frame and lenses.</p><a href="#visit" class="text-link">Speak to our team <span>↗</span></a></div></section>
-
-    <section class="section how-section" id="how-it-works"><div class="section-heading"><div><div class="eyebrow"><span class="rule"></span> SIMPLE, FROM START TO FINISH</div><h2>Ordering made easy<span class="accent-period">.</span></h2></div></div><div class="steps"><article><span class="step-no">01 <span>↗</span></span><h3>Choose your style</h3><p>Browse frames, check prices and add your favourites to the bag.</p></article><article><span class="step-no">02 <span>↗</span></span><h3>Send your request</h3><p>Enter your details and select shop pickup or request delivery.</p></article><article><span class="step-no">03 <span>↗</span></span><h3>We confirm the details</h3><p>Our team confirms availability, lens requirements and the final price with you.</p></article></div></section>
-
-    <section class="visit-section" id="visit"><div class="visit-inner"><div><div class="eyebrow pale"><span class="rule"></span> VISIT DELUX OPTICAL</div><h2>Closer than<br/>you think<span>.</span></h2><p>Explore online. Choose locally. We’re here to help you find the right pair.</p><div class="visit-location">⌾ <span id="shopLocation">Opp. Old Bus Stand, Mangalagiri, Andhra Pradesh</span></div><a class="visit-phone" id="phoneLink" href="tel:8985158331">Call us: <span id="shopPhone">8985158331</span></a><div class="visit-actions"><a href="https://maps.app.goo.gl/SQcJQousegjwvYD16" id="mapsLink" class="button button-light" target="_blank" rel="noopener noreferrer">Get directions ↗</a><button id="whatsappVisit" class="button button-outline-light" type="button">Chat on WhatsApp ↗</button></div></div><div class="visit-decor"><div class="visit-monogram">D<span>.</span></div><span>LOOK GOOD. FEEL GOOD.</span></div></div></section>
-  </main>
-
-  <footer><div class="footer-brand"><strong>DELUX OPTICAL</strong><p>Contemporary frames. A clearer perspective.</p></div><div class="footer-right"><p>Opp. Old Bus Stand, Mangalagiri.</p><a href="https://www.instagram.com/delux.opticals_/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#top">Back to top ↑</a><a href="/privacy.html">Privacy Policy</a><button id="adminOpen" type="button" hidden aria-hidden="true" tabindex="-1"></button></div><div class="footer-bottom">© <span id="year"></span> Delux Opticals <span>Crafted for your everyday vision.</span></div></footer>
-
-  <div id="overlay" class="overlay" hidden></div>
-
-  <aside id="cartDrawer" class="drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true">
-    <div class="drawer-head"><div><div class="eyebrow">YOUR SELECTION</div><h2>Shopping bag <span id="drawerCount">(0)</span></h2></div><button class="icon-button close-panels" type="button" aria-label="Close bag">×</button></div>
-    <div class="drawer-items" id="drawerItems"></div><div class="drawer-footer"><div class="cart-subtotal"><span>Frames subtotal</span><strong id="subtotal">₹0</strong></div><p>Lens pricing and delivery, if applicable, will be confirmed by the shop.</p><button id="checkoutBtn" class="button button-dark full" type="button">Continue to checkout <span>→</span></button><button id="whatsappCart" class="button button-neutral full" type="button">Order via WhatsApp ↗</button></div>
-  </aside>
-
-  <section id="checkoutModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" aria-hidden="true"><button class="icon-button close-panels modal-close" type="button" aria-label="Close checkout">×</button><div class="eyebrow">JUST ONE MORE STEP</div><h2 id="checkoutTitle">Your order request<span class="accent-period">.</span></h2><p class="form-hint">No account needed. The shop will confirm availability, lens details and the final payable amount.</p><form id="checkoutForm"><label>Your name <input type="text" name="name" placeholder="Full name" minlength="2" maxlength="80" autocomplete="name" required/></label><label>Mobile number <input type="tel" name="phone" placeholder="10-digit mobile number" inputmode="numeric" pattern="[6-9][0-9]{9}" maxlength="10" required/></label><div class="form-field"><span>How would you like to receive it?</span><div class="choice-row"><label><input type="radio" name="fulfilment" value="pickup" checked/> Shop pickup</label><label><input type="radio" name="fulfilment" value="delivery"/> Delivery request</label></div></div><label id="addressField" hidden>Delivery address <textarea name="address" placeholder="Door no., street, area and PIN code" maxlength="300" rows="3"></textarea></label><label>Message (optional) <textarea name="note" placeholder="Preferred time or any question (lens power can be discussed directly)" maxlength="300" rows="2"></textarea></label><div class="checkout-total">Frames subtotal <strong id="checkoutSubtotal">₹0</strong></div><button id="placeOrderBtn" class="button button-dark full" type="submit">Place order request →</button><p class="privacy-caption">Your details are used to handle your order request. No online payment is collected. See our <a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</p></form><div id="orderResult" class="order-result" hidden></div></section>
-
-  <section id="adminModal" class="admin-modal owner-portal" role="main" aria-label="Delux Opticals owner portal">
-  <div class="owner-brandbar">
-    <div class="owner-brand-lockup">
-      <img src="./delux-do-logo.svg" alt="Delux Opticals monogram" width="44" height="44" />
-      <div><strong>DELUX OPTICALS</strong><span>OWNER PORTAL</span></div>
-    </div>
-    <a class="owner-close" href="/" aria-label="Close owner portal and return to shop" title="Back to shop">&times;</a>
-  </div>
-  <div class="owner-content">
-    <div id="adminLogin">
-      <div class="owner-kicker"><span class="owner-status-dot" aria-hidden="true"></span> PRIVATE ACCESS</div>
-      <h2 class="owner-heading">Welcome back<span>.</span></h2>
-      <p class="owner-description">Sign in to manage your collection, pricing and customer orders.</p>
-      <form id="adminLoginForm" class="owner-auth-form">
-        <label for="ownerEmail">Email address</label>
-        <input id="ownerEmail" name="email" type="email" autocomplete="username" inputmode="email" required placeholder="owner@example.com" maxlength="254" />
-        <div class="owner-password-label"><label for="ownerPassword">Password</label><button id="ownerForgotLink" type="button" class="owner-text-action">Forgot password?</button></div>
-        <div class="owner-password-field"><input id="ownerPassword" name="password" type="password" autocomplete="current-password" required placeholder="Enter your password" /><button id="ownerTogglePassword" class="owner-password-toggle" type="button" aria-label="Show password" aria-pressed="false">Show</button></div>
-        <button class="owner-submit" type="submit">Sign in to dashboard <span aria-hidden="true">→</span></button>
-      </form>
-      <p id="adminLoginMessage" class="owner-feedback" role="status" aria-live="polite"></p>
-      <div class="owner-footnote"><span aria-hidden="true">◆</span> Authorized Delux Opticals staff only</div>
-      <p class="owner-email-help">Forgot your registered email? Contact the website administrator to verify access.</p>
-    </div>
-    <div id="adminForgot" hidden>
-      <div class="owner-kicker"><span class="owner-status-dot" aria-hidden="true"></span> ACCOUNT RECOVERY</div>
-      <h2 class="owner-heading">Reset password<span>.</span></h2>
-      <p class="owner-description">Enter your registered owner email. If eligible, you'll receive a secure link to create a new password.</p>
-      <form id="adminForgotForm" class="owner-auth-form">
-        <label for="ownerRecoveryEmail">Registered email</label>
-        <input id="ownerRecoveryEmail" name="email" type="email" autocomplete="email" inputmode="email" required placeholder="owner@example.com" maxlength="254" />
-        <button class="owner-submit" type="submit">Send reset link <span aria-hidden="true">→</span></button>
-      </form>
-      <p id="adminForgotMessage" class="owner-feedback" role="status" aria-live="polite"></p>
-      <button id="ownerBackToLogin" class="owner-back-link" type="button">← Back to sign in</button>
-    </div>
-<div id="adminDashboard" hidden><div class="admin-toolbar"><div class="admin-tabs"><button class="active" data-admin-tab="products" type="button">Products</button><button data-admin-tab="orders" type="button">Orders</button></div><button id="adminLogout" class="logout-button" type="button">Sign out</button></div><div id="adminProductsTab"><div class="admin-title-row"><strong>Manage frames</strong><button class="small-primary" id="addProductToggle" type="button">+ Add product</button></div><form id="productForm" class="product-form" hidden><input type="hidden" name="id"/><div class="form-grid"><label>Frame name <input name="name" required maxlength="90" placeholder="Classic Black"/></label><label>Category <select name="category"><option>Men</option><option>Women</option><option>Sunglasses</option><option>Kids</option></select></label><label>Brand <input name="brand" list="brandSuggestions" maxlength="60" placeholder="Ray-Ban, IDEAL"/><datalist id="brandSuggestions"><option value="Ray-Ban"></option><option value="IDEAL"></option><option value="Fastrack"></option><option value="IDEE"></option><option value="FILA"></option></datalist></label><label>Price ₹ <input name="price" type="number" required min="1" max="200000" step="1"/></label><label>MRP (optional) ₹ <input name="compare_at" type="number" min="0" max="200000" step="1"/></label></div><label>Short description <textarea name="description" rows="2" maxlength="300"></textarea></label><label>Photo (JPG / PNG / WEBP, up to 2 MB) <input id="photoInput" name="photo" type="file" accept="image/jpeg,image/png,image/webp"/></label><div class="form-grid"><label class="checkline"><input name="active" type="checkbox" checked/> Visible in catalogue</label><label class="checkline"><input name="in_stock" type="checkbox" checked/> In stock</label><label class="checkline"><input name="featured" type="checkbox"/> Featured</label></div><div class="form-actions"><button class="small-primary" type="submit">Save product</button><button id="cancelProduct" class="small-secondary" type="button">Cancel</button></div></form><div id="adminProductsList" class="admin-list"></div></div><div id="adminOrdersTab" hidden><div class="admin-title-row"><strong>Customer order requests</strong><button id="refreshOrders" type="button" class="small-secondary">Refresh</button></div><div id="adminOrdersList" class="admin-list"></div></div></div>
-  </div>
+<div class="announcement"><span class="ann-dot"></span> PREMIUM EYEWEAR &amp; EYE TESTING <span class="ann-break">/</span> MANGALAGIRI</div>
+<header class="site-header" id="top">
+<a aria-label="Delux Opticals home" class="brand" href="#top">
+<span class="brand-mark"><img alt="" aria-hidden="true" src="./delux-do-logo.svg"/></span>
+<span class="brand-text"><strong>DELUX</strong><small>OPTICAL</small></span>
+</a>
+<nav aria-label="Main navigation" class="desktop-nav"><a href="#collection">Collections</a><a href="#how-it-works">How it works</a><a href="#visit">Visit us</a></nav>
+<div class="header-actions"><button class="subtle-cta" hidden="" id="installTop" type="button">Get the app <span>↗</span></button><button aria-label="Open shopping bag" class="cart-trigger" id="cartTop" type="button"><svg fill="none" stroke="currentColor" stroke-width="1.75" viewbox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span class="cart-count" id="cartCount">0</span></button></div>
+</header>
+<main>
+<section aria-labelledby="heroHeading" class="hero">
+<div class="hero-copy"><div class="eyebrow pale"><span class="rule"></span> A FRESH PERSPECTIVE</div><h1 id="heroHeading">See better.<br/><em>Look sharper.</em></h1><p>Discover premium IDEE, Ray-Ban, Fastrack and FILA eyewear, with eye testing and personal help from your local optical team.</p><div class="hero-buttons"><a class="button button-light" href="#collection">Explore collection <span>↗</span></a><a class="button button-ghost" href="#how-it-works">How to order <span>↓</span></a></div><div class="hero-note"><span class="tiny-symbol">✳</span> FRAMES FOR EVERY FACE, EVERY DAY</div></div>
+<div class="hero-art"><div class="hero-oval"></div><div class="hero-circle-label">YOUR<br/>EVERYDAY<br/>LOOK <span>↗</span></div><img alt="Illustration of premium optical frames" src="./hero-frames.svg"/><div class="hero-index"><span>01</span> / 03   CURATED EYEWEAR</div></div>
 </section>
-
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <div id="demoBanner" class="demo-banner" hidden>Online catalogue is temporarily unavailable. For current frames, please call or WhatsApp the shop.</div>
-  <script>
+<div class="benefits-strip"><span><b>01</b> Premium &amp; luxury frames</span><i></i><span><b>02</b> Eye testing available</span><i></i><span><b>03</b> Shop pickup in Mangalagiri</span></div><div aria-label="Available eyewear brands" class="brand-strip"><span>FEATURED BRANDS</span><strong>IDEE</strong><i></i><strong>Ray-Ban</strong><i></i><strong>Fastrack</strong><i></i><strong>FILA</strong></div>
+<section class="section collection-section" id="collection">
+<div class="section-heading"><div><div class="eyebrow"><span class="rule"></span> FIND YOUR FRAME</div><h2>The collection<span class="accent-period">.</span></h2><p>Explore everyday essentials and statement styles.</p></div><div class="product-count" id="productCount">Collection preview</div></div>
+<div class="controls-bar"><div aria-label="Filter products" class="filter-bar" id="filters" role="group"><button class="filter" data-category="Men" type="button">Men</button><button class="filter" data-category="Women" type="button">Women</button><button class="filter" data-category="Sunglasses" type="button">Sunglasses</button><button class="filter" data-category="Kids" type="button">Kids</button></div><label class="search-box"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg><input aria-label="Search frames" id="productSearch" placeholder="Search frames" type="search"/></label></div>
+<aside class="brand-filters" id="brandFilters"></aside><div aria-live="polite" class="products-grid" id="productsGrid"></div>
+<div class="empty" hidden="" id="emptyProducts">No frames found. Try another search.</div>
+<div class="preview-notice" hidden="" id="previewNotice">Our online catalogue is temporarily unavailable. Please call or WhatsApp the shop.</div>
+</section>
+<section class="editorial"><div class="editorial-art"><img alt="Stylish eyeglasses illustration" src="./feature-frames.svg"/><span class="editorial-label">THE DETAILS MATTER.</span></div><div class="editorial-copy"><div class="eyebrow"><span class="rule"></span> MORE THAN JUST FRAMES</div><h2>Find your<br><em>perfect fit.</em></br></h2><p>Explore IDEE, Ray-Ban, Fastrack and FILA frames. Visit us for eye testing or help choosing the right frame and lenses.</p><a class="text-link" href="#visit">Speak to our team <span>↗</span></a></div></section>
+<section class="section how-section" id="how-it-works"><div class="section-heading"><div><div class="eyebrow"><span class="rule"></span> SIMPLE, FROM START TO FINISH</div><h2>Ordering made easy<span class="accent-period">.</span></h2></div></div><div class="steps"><article><span class="step-no">01 <span>↗</span></span><h3>Choose your style</h3><p>Browse frames, check prices and add your favourites to the bag.</p></article><article><span class="step-no">02 <span>↗</span></span><h3>Send your request</h3><p>Enter your details and select shop pickup or request delivery.</p></article><article><span class="step-no">03 <span>↗</span></span><h3>We confirm the details</h3><p>Our team confirms availability, lens requirements and the final price with you.</p></article></div></section>
+<section class="visit-section" id="visit"><div class="visit-inner"><div><div class="eyebrow pale"><span class="rule"></span> VISIT DELUX OPTICAL</div><h2>Closer than<br>you think<span>.</span></br></h2><p>Explore online. Choose locally. We’re here to help you find the right pair.</p><div class="visit-location">⌾ <span id="shopLocation">Opp. Old Bus Stand, Mangalagiri, Andhra Pradesh</span></div><a class="visit-phone" href="tel:8985158331" id="phoneLink">Call us: <span id="shopPhone">8985158331</span></a><div class="visit-actions"><a class="button button-light" href="https://maps.app.goo.gl/SQcJQousegjwvYD16" id="mapsLink" rel="noopener noreferrer" target="_blank">Get directions ↗</a><button class="button button-outline-light" id="whatsappVisit" type="button">Chat on WhatsApp ↗</button></div></div><div class="visit-decor"><div class="visit-monogram">D<span>.</span></div><span>LOOK GOOD. FEEL GOOD.</span></div></div></section>
+</main>
+<footer><div class="footer-brand"><strong>DELUX OPTICAL</strong><p>Contemporary frames. A clearer perspective.</p></div><div class="footer-right"><p>Opp. Old Bus Stand, Mangalagiri.</p><a href="https://www.instagram.com/delux.opticals_/" rel="noopener noreferrer" target="_blank">Instagram ↗</a><a href="#top">Back to top ↑</a><a href="/privacy.html">Privacy Policy</a><button aria-hidden="true" hidden="" id="adminOpen" tabindex="-1" type="button"></button></div><div class="footer-bottom">© <span id="year"></span> Delux Opticals <span>Crafted for your everyday vision.</span></div></footer>
+<div class="overlay" hidden="" id="overlay"></div>
+<aside aria-hidden="true" aria-label="Shopping bag" aria-modal="true" class="drawer" id="cartDrawer" role="dialog">
+<div class="drawer-head"><div><div class="eyebrow">YOUR SELECTION</div><h2>Shopping bag <span id="drawerCount">(0)</span></h2></div><button aria-label="Close bag" class="icon-button close-panels" type="button">×</button></div>
+<div class="drawer-items" id="drawerItems"></div><div class="drawer-footer"><div class="cart-subtotal"><span>Frames subtotal</span><strong id="subtotal">₹0</strong></div><p>Lens pricing and delivery, if applicable, will be confirmed by the shop.</p><button class="button button-dark full" id="checkoutBtn" type="button">Continue to checkout <span>→</span></button><button class="button button-neutral full" id="whatsappCart" type="button">Order via WhatsApp ↗</button></div>
+</aside>
+<section aria-hidden="true" aria-labelledby="checkoutTitle" aria-modal="true" class="modal" id="checkoutModal" role="dialog"><button aria-label="Close checkout" class="icon-button close-panels modal-close" type="button">×</button><div class="eyebrow">JUST ONE MORE STEP</div><h2 id="checkoutTitle">Your order request<span class="accent-period">.</span></h2><p class="form-hint">No account needed. The shop will confirm availability, lens details and the final payable amount.</p><form id="checkoutForm"><label>Your name <input autocomplete="name" maxlength="80" minlength="2" name="name" placeholder="Full name" required="" type="text"/></label><label>Mobile number <input inputmode="numeric" maxlength="10" name="phone" pattern="[6-9][0-9]{9}" placeholder="10-digit mobile number" required="" type="tel"/></label><div class="form-field"><span>How would you like to receive it?</span><div class="choice-row"><label><input checked="" name="fulfilment" type="radio" value="pickup"/> Shop pickup</label><label><input name="fulfilment" type="radio" value="delivery"/> Delivery request</label></div></div><label hidden="" id="addressField">Delivery address <textarea maxlength="300" name="address" placeholder="Door no., street, area and PIN code" rows="3"></textarea></label><label>Message (optional) <textarea maxlength="300" name="note" placeholder="Preferred time or any question (lens power can be discussed directly)" rows="2"></textarea></label><div class="checkout-total">Frames subtotal <strong id="checkoutSubtotal">₹0</strong></div><button class="button button-dark full" id="placeOrderBtn" type="submit">Place order request →</button><p class="privacy-caption">Your details are used to handle your order request. No online payment is collected. See our <a href="/privacy.html" rel="noopener noreferrer" target="_blank">Privacy Policy</a>.</p></form><div class="order-result" hidden="" id="orderResult"></div></section>
+<section aria-label="Delux Opticals owner portal" class="admin-modal owner-portal" id="adminModal" role="main">
+<div class="owner-brandbar">
+<div class="owner-brand-lockup">
+<img alt="Delux Opticals monogram" height="44" src="./delux-do-logo.svg" width="44"/>
+<div><strong>DELUX OPTICALS</strong><span>OWNER PORTAL</span></div>
+</div>
+<a aria-label="Close owner portal and return to shop" class="owner-close" href="/" title="Back to shop">×</a>
+</div>
+<div class="owner-content">
+<div id="adminLogin">
+<div class="owner-kicker"><span aria-hidden="true" class="owner-status-dot"></span> PRIVATE ACCESS</div>
+<h2 class="owner-heading">Welcome back<span>.</span></h2>
+<p class="owner-description">Sign in to manage your collection, pricing and customer orders.</p>
+<form class="owner-auth-form" id="adminLoginForm">
+<label for="ownerEmail">Email address</label>
+<input autocomplete="username" id="ownerEmail" inputmode="email" maxlength="254" name="email" placeholder="owner@example.com" required="" type="email"/>
+<div class="owner-password-label"><label for="ownerPassword">Password</label><button class="owner-text-action" id="ownerForgotLink" type="button">Forgot password?</button></div>
+<div class="owner-password-field"><input autocomplete="current-password" id="ownerPassword" name="password" placeholder="Enter your password" required="" type="password"/><button aria-label="Show password" aria-pressed="false" class="owner-password-toggle" id="ownerTogglePassword" type="button">Show</button></div>
+<button class="owner-submit" type="submit">Sign in to dashboard <span aria-hidden="true">→</span></button>
+</form>
+<p aria-live="polite" class="owner-feedback" id="adminLoginMessage" role="status"></p>
+<div class="owner-footnote"><span aria-hidden="true">◆</span> Authorized Delux Opticals staff only</div>
+<p class="owner-email-help">Forgot your registered email? Contact the website administrator to verify access.</p>
+</div>
+<div hidden="" id="adminForgot">
+<div class="owner-kicker"><span aria-hidden="true" class="owner-status-dot"></span> ACCOUNT RECOVERY</div>
+<h2 class="owner-heading">Reset password<span>.</span></h2>
+<p class="owner-description">Enter your registered owner email. If eligible, you'll receive a secure link to create a new password.</p>
+<form class="owner-auth-form" id="adminForgotForm">
+<label for="ownerRecoveryEmail">Registered email</label>
+<input autocomplete="email" id="ownerRecoveryEmail" inputmode="email" maxlength="254" name="email" placeholder="owner@example.com" required="" type="email"/>
+<button class="owner-submit" type="submit">Send reset link <span aria-hidden="true">→</span></button>
+</form>
+<p aria-live="polite" class="owner-feedback" id="adminForgotMessage" role="status"></p>
+<button class="owner-back-link" id="ownerBackToLogin" type="button">← Back to sign in</button>
+</div>
+<div hidden="" id="adminDashboard"><div class="admin-toolbar"><div class="admin-tabs"><button class="active" data-admin-tab="products" type="button">Products</button><button data-admin-tab="orders" type="button">Orders</button><button data-admin-tab="brands" type="button">Brands</button></div><button class="logout-button" id="adminLogout" type="button">Sign out</button></div><div id="adminProductsTab"><div class="admin-title-row"><strong>Manage frames</strong><button class="small-primary" id="addProductToggle" type="button">+ Add product</button></div><form class="product-form" hidden="" id="productForm"><input name="id" type="hidden"/><div class="form-grid"><label>Model number <input autocomplete="off" maxlength="90" name="name" placeholder="e.g. RB3025, ID-101" required=""/><small class="model-field-help">Enter the frame model code</small></label><label>Category <select name="category"><option>Men</option><option>Women</option><option>Sunglasses</option><option>Kids</option></select></label><label>Brand <input list="brandSuggestions" maxlength="60" name="brand" placeholder="Ray-Ban, IDEAL"/><datalist id="brandSuggestions"><option value="Ray-Ban"></option><option value="IDEAL"></option><option value="Fastrack"></option><option value="IDEE"></option><option value="FILA"></option></datalist></label><label>Price ₹ <input max="200000" min="1" name="price" required="" step="1" type="number"/></label><label>MRP (optional) ₹ <input max="200000" min="0" name="compare_at" step="1" type="number"/></label></div><label>Frame details <textarea maxlength="300" name="description" placeholder="e.g. Classic Black · Matte Finish · Lightweight frame" rows="2"></textarea><small class="model-field-help">Colour, material and frame style (optional)</small></label><label>Photos (up to 8, JPG / PNG / WEBP, 2 MB each) <input accept="image/jpeg,image/png,image/webp" id="photoInput" multiple="" name="photo" type="file"/><small id="photoHint">You can add more photos while editing a frame.</small><div class="existing-photos" id="existingPhotos"></div></label><div class="form-grid"><label class="checkline"><input checked="" name="active" type="checkbox"/> Visible in catalogue</label><label class="checkline"><input checked="" name="in_stock" type="checkbox"/> In stock</label><label class="checkline"><input name="featured" type="checkbox"/> Featured</label></div><div class="form-actions"><button class="small-primary" type="submit">Save product</button><button class="small-secondary" id="cancelProduct" type="button">Cancel</button></div></form><div class="admin-list" id="adminProductsList"></div></div><div hidden="" id="adminBrandsTab"><div class="admin-title-row"><strong>Manage brands</strong></div><form class="brand-form" id="brandForm"><label>New brand <input id="newBrandName" maxlength="60" placeholder="Enter brand name" required=""/></label><button class="small-primary" type="submit">+ Add brand</button></form><div class="admin-list" id="adminBrandsList"></div></div><div hidden="" id="adminOrdersTab"><div class="admin-title-row"><strong>Customer order requests</strong><button class="small-secondary" id="refreshOrders" type="button">Refresh</button></div><div class="admin-list" id="adminOrdersList"></div></div></div>
+</div>
+</section>
+<div aria-label="Frame photos" aria-modal="true" class="gallery" hidden="" id="gallery" role="dialog"><button aria-label="Close gallery" class="gallery-close" id="galleryClose" type="button">×</button><button aria-label="Previous photo" class="gallery-prev" id="galleryPrev" type="button">‹</button><img alt="Frame photo" id="galleryImage"/><button aria-label="Next photo" class="gallery-next" id="galleryNext" type="button">›</button><span id="galleryCounter"></span></div><div aria-live="polite" class="toast" id="toast" role="status"></div>
+<div class="demo-banner" hidden="" id="demoBanner">Online catalogue is temporarily unavailable. For current frames, please call or WhatsApp the shop.</div>
+<script>
     // app.js registers owner events before DOMContentLoaded because it is deferred.
     document.addEventListener('DOMContentLoaded', function () {
       const openButton = document.getElementById('adminOpen');
